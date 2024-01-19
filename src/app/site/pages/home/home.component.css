@@ -1,0 +1,14 @@
+.images-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.images-grid > div {
+    aspect-ratio: 4 / 3;
+    font-size: 32px;
+    box-shadow: 0 0 10px 5px #0002;
+    background-size: cover;
+}
